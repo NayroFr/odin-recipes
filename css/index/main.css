@@ -1,11 +1,7 @@
-$backgroundColor: #e9e9e9;
-$textColor: black;
-$link: #a52a2a;
 @import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap");
-
 Body {
-  background-color: $backgroundColor;
-  color: $textColor;
+  background-color: #e9e9e9;
+  color: black;
   margin: 0;
   font-family: "Tangerine", cursive;
 }
@@ -15,7 +11,7 @@ h1 {
   font-weight: 400;
   text-align: center;
   margin: 0 0 -35px 0;
-  color: $link;
+  color: #a52a2a;
   text-shadow: 2px 0 1px white;
 }
 
@@ -30,42 +26,35 @@ h1 {
 .recipes {
   display: flex;
   text-align: center;
-  background-color: rgb(214, 213, 213);
-  border-radius: 35px 0 35px 0;
   height: 500px;
   width: 70%;
   margin-left: auto;
   margin-right: auto;
-  div {
-    margin: auto;
-    img {
-      height: 300px;
-      width: auto;
-      border-radius: 5px;
-    }
-  }
+}
+.recipes div {
+  margin: auto;
+}
+.recipes div img {
+  height: 350px;
+  width: auto;
+  border-radius: 5px;
 }
 
 .lasagna,
 .macN,
 .toasted {
   transition: transform 0.5s;
-  &:hover {
-    -ms-transform: scale(1.1); /* IE 9 */
-    -webkit-transform: scale(1.1); /* Safari 3-8 */
-    transform: scale(1.1);
-  }
+}
+.lasagna:hover,
+.macN:hover,
+.toasted:hover { /* IE 9 */ /* Safari 3-8 */
+  transform: scale(1.1);
 }
 
 a {
   font-size: 35px;
   font-weight: bold;
-  color: $link;
+  color: #a52a2a;
   text-decoration: none;
   text-align: center;
-}
-
-img {
-  width: 200px;
-  height: auto;
-}
+}/*# sourceMappingURL=main.css.map */
