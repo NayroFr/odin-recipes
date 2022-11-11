@@ -25,7 +25,7 @@ h1 {
   height: 500px;
   width: 75%;
   margin: auto;
-  background-image: url(/odin-recipes/mages/macncheeseBackground.jpg);
+  background-image: url(/odin-recipes/images/macncheeseBackground.jpg);
   background-size: cover;
   background-position: 0 35%;
 }
@@ -46,4 +46,4 @@ h1 {
 
 .description {
   text-align: center;
-} /*# sourceMappingURL=recipes.css.map */
+}/*# sourceMappingURL=recipes.css.map */
