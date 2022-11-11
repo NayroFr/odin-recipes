@@ -47,8 +47,7 @@ h1 {
 }
 .lasagna:hover,
 .macN:hover,
-.toasted:hover {
-  /* IE 9 */ /* Safari 3-8 */
+.toasted:hover { /* IE 9 */ /* Safari 3-8 */
   transform: scale(1.1);
 }
 
@@ -58,4 +57,4 @@ a {
   color: #a52a2a;
   text-decoration: none;
   text-align: center;
-} /*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
